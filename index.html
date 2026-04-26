@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clarity website description">
+    <meta name="keywords"
+        content="digital solutions, الحلول الرقمية, web development, تطوير المواقع, software development, تطوير البرمجيات">
+    <meta name="author" content="carol ayman">
+    <title>Clarity - Digital Solutions platform</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Website icon -->
+    <link rel="icon" href="./imgs/image.ico?v=2">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-id">
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg p-3 fixed-top" id="navbar-id">
+        <div class="container">
+            <a class="navbar-brand d-flex flex-wrap justify-content-center align-items-center gap-3" href="#">
+                <div class="icon">
+                    <i class="fa-sharp fa-solid fa-cube" style="color: rgb(255, 255, 255);"></i>
+                </div>
+                <span class="primary-color">Clarity</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto d-flex align-items-center gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active px-0 mx-2" aria-current="page" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown-wrapper px-0 mx-2">
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#services-panel"
+                            aria-expanded="false">
+                            Services
+                            <i class="fa-solid fa-chevron-down dropdown-arrow ms-1"></i>
+                        </a>
+                        <div class="collapse dropdown-panel" id="services-panel">
+                            <div class="container">
+                                <div class="row g-4">
+                                    <div class="col-12 col-lg-4">
+                                        <p class="dropdown-label">Development</p>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-code"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Web Development</div>
+                                                <div class="dropdown-item-sub">Custom web applications & websites</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-mobile"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Mobile Apps</div>
+                                                <div class="dropdown-item-sub">iOS & Android native apps</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-palette"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">UI/UX Design</div>
+                                                <div class="dropdown-item-sub">User-centered design solutions</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p class="dropdown-label">Infrastructure & AI</p>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-cloud"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Cloud Solutions</div>
+                                                <div class="dropdown-item-sub">Scalable cloud infrastructure</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-brain"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">AI & Machine Learning</div>
+                                                <div class="dropdown-item-sub">Intelligent automation solutions</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-database"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Data Solutions</div>
+                                                <div class="dropdown-item-sub">Database & analytics platforms</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p class="dropdown-label">Marketing</p>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-chart-line"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Digital Marketing</div>
+                                                <div class="dropdown-item-sub">SEO, SEM & social media</div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="dropdown-item-custom">
+                                            <div class="dropdown-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                                            <div>
+                                                <div class="dropdown-item-title">Content Strategy</div>
+                                                <div class="dropdown-item-sub">Engaging content creation</div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-cta mt-2">
+                                            <p class="dropdown-cta-title">Need help choosing?</p>
+                                            <p class="dropdown-cta-sub">Talk to our experts to find the perfect solution
+                                                for your business.</p>
+                                            <a href="#contact" class="dropdown-cta-link">
+                                                Contact us <i class="fa-solid fa-arrow-right ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item text-color px-0 mx-2">
+                        <a class="nav-link " href="#technology">Technology</a>
+                    </li>
+
+                    <li class="nav-item text-color px-0 mx-2">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+
+
+                    <li class="nav-item text-color px-0 mx-2">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+
+
+                    <li class="nav-item text-color px-0 mx-2">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-2">
+                    <button class="btn sign-btn" type="submit">Sign in</button>
+                    <button class="btn start-btn rounded-pill px-3 py-2" type="submit">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End nav bar -->
+
+    <!-- Header -->
+    <header class="home py-5" id="home">
+        <div class="container">
+            <div class="content">
+                <div class="row d-flex flex-column flex-sm-row g-5">
+                    <div class=" left col-12 col-lg-6">
+                        <div class="head-span rounded-pill px-2 py-2">
+                            <i class="fa-solid fa-rocket primary-color me-1"></i>
+                            <span class="primary-color">Transforming Digital Experiences</span>
+                        </div>
+                        <h1 class="my-2">
+                            <span class="title-color">Digital Solutions</span>
+                            <span class="secondary-color">That Drive</span>
+                            <span class="color-gradient">Growth</span>
+                        </h1>
+                        <p class="text-color">We craft innovative digital experiences that transform businesses and
+                            accelerate growth. From
+                            cutting-edge web applications to mobile solutions, we deliver technology that makes a
+                            difference.
+                        </p>
+                        <div class="buttons d-flex flex-column flex-sm-row gap-3">
+
+                            <button class="btn start-btn rounded-pill fs-5 p-3 flex-fill" type="submit">
+                                <span class="p-2">Start Your Project</span>
+                                <i class="fa-solid fa-arrow-right me-2"></i>
+                            </button>
+                            <button class="btn watch-btn rounded-pill fs-5 p-3 flex-fill" type="submit">
+                                <i class="fa-solid fa-play ms-3"></i>
+                                <span class="p-2">Watch Demo</span>
+                            </button>
+                        </div>
+                        <div class="container py-3">
+                            <div class="row text-center my-2 mx-auto">
+                                <div class="col-4">
+                                    <h3 class="primary-color fw-bold">500+</h3>
+                                    <p class="text-muted mb-0">Projects Delivered</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color fw-bold">98%</h3>
+                                    <p class="text-muted mb-0">Client Satisfaction</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="primary-color fw-bold">24/7</h3>
+                                    <p class="text-muted mb-0">Support</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right col-12 col-lg-6 ">
+                        <div class="image-wrapper">
+                            <div class="bg-layer"></div>
+                            <div class="main-box">
+                                <img src="./imgs/hero-img-sGwnWbTh.png" alt="hero image">
+                            </div>
+                            <div class="icon top-right">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="icon bottom-left">
+                                <i class="fa-solid fa-mobile"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- main content -->
+    <main>
+        <!-- Services section -->
+        <section class="Services py-5" id="Services">
+            <div class="container">
+                <div class="title text-center mb-3">
+                    <div class="head-span rounded-pill px-2 py-2 m-auto">
+                        <i class="fa-solid fa-gears primary-color me-1"></i>
+                        <span class="primary-color">Our Services</span>
+                    </div>
+                    <h1 class="my-3">
+                        <span class="secondary-color">Comprehensive</span>
+                        <span class="color-gradient">Digital Solutions</span>
+                    </h1>
+                    <p class="text-color">
+                        From concept to deployment, we provide end-to-end digital services that transform your business
+                        and engage your customers.
+                    </p>
+                </div>
+                <div class="content my-5">
+                    <div class="row flex-column flex-md-row g-4">
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-code fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">Web Development</h3>
+                                <p class="text-color my-3">
+                                    Custom web applications built with cutting-edge technologies.
+                                    Responsive, scalable, and optimized for performance.
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>React &
+                                        Next.js
+                                        Development
+                                    </li>
+                                    <li class="text-color"><i
+                                            class="fa-solid fa-check primary-color me-2"></i>E-commerce Solutions
+                                    </li>
+                                    <li class="text-color"><i
+                                            class="fa-solid fa-check primary-color me-2"></i>Progressive Web Apps
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-mobile fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">Mobile Applications</h3>
+                                <p class="text-color my-3">
+                                    Native and cross-platform mobile apps that deliver exceptional user experiences
+                                    across all devices.
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>iOS &
+                                        Android Development
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>React
+                                        Native & Flutter
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>App Store
+                                        Optimization
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-cloud fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">Cloud Solutions</h3>
+                                <p class="text-color my-3">
+                                    Scalable cloud infrastructure and services that grow with your business needs and
+                                    ensure maximum uptime.
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>AWS &
+                                        Azure Integration
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>DevOps &
+                                        CI/CD
+                                    </li>
+                                    <li class="text-color"><i
+                                            class="fa-solid fa-check primary-color me-2"></i>Microservices Architecture
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-brain fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">AI & Machine Learning</h3>
+                                <p class="text-color my-3">
+                                    Intelligent solutions powered by artificial intelligence and machine learning to
+                                    automate and optimize processes.
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i
+                                            class="fa-solid fa-check primary-color me-2"></i>Predictive Analytics
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>Natural
+                                        Language Processing
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>Computer
+                                        Vision
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-chart-line fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">Digital Marketing</h3>
+                                <p class="text-color my-3">
+                                    Data-driven marketing strategies that increase brand visibility and drive customer
+                                    engagement across all channels
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>SEO & SEM
+                                        Optimization
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>Social
+                                        Media Management
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>Content
+                                        Strategy
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="content-box">
+                                <div class="icon mb-3">
+                                    <i class="fa-solid fa-palette fs-4"></i>
+                                </div>
+                                <h3 class="secondary-color">UI/UX Design</h3>
+                                <p class="text-color my-3">
+                                    User-centered design that creates intuitive, beautiful, and accessible digital
+                                    experiences that users love.
+                                </p>
+                                <ul class="mb-3">
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>User
+                                        Research & Testing
+                                    </li>
+                                    <li class="text-color"><i
+                                            class="fa-solid fa-check primary-color me-2"></i>Wireframing & Prototyping
+                                    </li>
+                                    <li class="text-color"><i class="fa-solid fa-check primary-color me-2"></i>Design
+                                        Systems
+                                    </li>
+                                </ul>
+                                <a href="#" class="primary-color">
+                                    Learn More <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services section -->
+
+
+        <!-- technology section -->
+        <section class="technology py-5" id="technology">
+            <div class="container">
+                <div class="title text-center mb-3">
+                    <div class="head-span rounded-pill px-2 py-2 m-auto">
+                        <i class="fa-solid fa-gear primary-color me-1"></i>
+                        <span class="primary-color">Technology Stack</span>
+                    </div>
+                    <h1 class="my-3">
+                        <span class="secondary-color">Cutting-Edge</span>
+                        <span class="color-gradient">Technologies</span>
+                    </h1>
+                    <p class="text-color">
+                        We leverage the latest technologies and frameworks to build scalable, secure, and
+                        high-performance solutions
+                    </p>
+                </div>
+                <div class="content">
+                    <ul class="nav nav-tabs justify-content-center gap-4" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#frontend"
+                                type="button">
+                                <i class="fas fa-code me-2"></i> Frontend
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#backend" type="button">
+                                <i class="fa-solid fa-server me-2"></i> Backend
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#mobile" type="button">
+                                <i class="fas fa-mobile me-2"></i> Mobile
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#devops" type="button">
+                                <i class="fa-solid fa-cloud me-2"></i> Cloud & DevOps
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#database" type="button">
+                                <i class="fa-solid fa-database me-2"></i> Database
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content mt-4 text-center">
+                        <div class="tab-pane fade show active" id="frontend">
+                            <h5 class="secondary-color fs-3 pt-3">Frontend Technologies</h5>
+                            <p class="text-color fs-5 py-3">Modern frameworks and libraries for creating exceptional
+                                user interfaces</p>
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-react text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">React.js</h4>
+                                        <p class="text-color my-3">
+                                            Component-based library for building interactive user interfaces with
+                                            virtual DOM
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill text-primary">JSX</span>
+                                            <span class="badge rounded-pill text-primary">Hooks</span>
+                                            <span class="badge rounded-pill text-primary">Redux</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box black text-start">
+                                        <div class="icon mb-3">
+                                            <span class="text-white fs-5">Next</span>
+                                        </div>
+                                        <h4 class="secondary-color">Next.js</h4>
+                                        <p class="text-color my-3">
+                                            Full-stack React framework with server-side rendering and static generation
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">SSR</span>
+                                            <span class="badge rounded-pill">SSQ</span>
+                                            <span class="badge rounded-pill">API Routes</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-vuejs text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Vue.js</h4>
+                                        <p class="text-color my-3">
+                                            Progressive framework for building user interfaces with excellent developer
+                                            experience
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Composition API</span>
+                                            <span class="badge rounded-pill">Vuex</span>
+                                            <span class="badge rounded-pill">Nuxt</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-angular text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Angular</h4>
+                                        <p class="text-color my-3">
+                                            Comprehensive platform for building scalable web applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">TypeScript</span>
+                                            <span class="badge rounded-pill">RxJS</span>
+                                            <span class="badge rounded-pill">CLI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box cyan text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-css3-alt text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Tailwind CSS</h4>
+                                        <p class="text-color my-3">
+                                            Utility-first CSS framework for rapid UI development
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">JIT</span>
+                                            <span class="badge rounded-pill">Components</span>
+                                            <span class="badge rounded-pill">Responsive</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box purple text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-bolt text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Vite</h4>
+                                        <p class="text-color my-3">
+                                            Next generation frontend tooling with lightning fast builds
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">HMR</span>
+                                            <span class="badge rounded-pill">ESM</span>
+                                            <span class="badge rounded-pill">Rollup</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="backend">
+                            <h5 class="secondary-color fs-3 pt-3">Backend Technologies</h5>
+                            <p class="text-color fs-5 py-3">Robust server-side technologies for scalable and secure
+                                applications </p>
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-node-js text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Node.js</h4>
+                                        <p class="text-color my-3">
+                                            JavaScript runtime built on Chrome's V8 engine for server-side development
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill text-primary">Express.js</span>
+                                            <span class="badge rounded-pill text-primary">NPM</span>
+                                            <span class="badge rounded-pill text-primary">TypeScript</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-python text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Python</h4>
+                                        <p class="text-color my-3">
+                                            Versatile programming language with powerful frameworks for web development
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Django</span>
+                                            <span class="badge rounded-pill">FastAPI</span>
+                                            <span class="badge rounded-pill">Flask</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-golang text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Golang</h4>
+                                        <p class="text-color my-3">
+                                            Fast, statically typed language designed for modern software development
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Gin</span>
+                                            <span class="badge rounded-pill">Goroutines</span>
+                                            <span class="badge rounded-pill">Microservices</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box purple text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-java text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Java</h4>
+                                        <p class="text-color my-3">
+                                            Enterprise-grade platform with robust frameworks for large-scale
+                                            applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Spring Boot</span>
+                                            <span class="badge rounded-pill">Hibernate</span>
+                                            <span class="badge rounded-pill">Maven</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <span class="text-white fs-5">.NET</span>
+                                        </div>
+                                        <h4 class="secondary-color">.NET Core</h4>
+                                        <p class="text-color my-3">
+                                            Cross-platform framework for building modern, cloud-based applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">C#</span>
+                                            <span class="badge rounded-pill">Entity Framework</span>
+                                            <span class="badge rounded-pill">Azure</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-diamond text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Ruby</h4>
+                                        <p class="text-color my-3">
+                                            Dynamic language focused on simplicity and productivity
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Rails</span>
+                                            <span class="badge rounded-pill">Sinatra</span>
+                                            <span class="badge rounded-pill">RubyGems</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="mobile">
+                            <h5 class="secondary-color fs-3 pt-3">Mobile Technologies</h5>
+                            <p class="text-color fs-5 py-3">Native and cross-platform solutions for iOS and Android
+                                development</p>
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-react text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">React Native</h4>
+                                        <p class="text-color my-3">
+                                            Cross-platform mobile development using React and JavaScript
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill text-primary">Expo</span>
+                                            <span class="badge rounded-pill text-primary">Navigation</span>
+                                            <span class="badge rounded-pill text-primary">Redux</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-mobile text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Flutter</h4>
+                                        <p class="text-color my-3">
+                                            Google's UI toolkit for building natively compiled applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Dart</span>
+                                            <span class="badge rounded-pill">Widgets</span>
+                                            <span class="badge rounded-pill">Material</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box black text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-apple text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">iOS Native</h4>
+                                        <p class="text-color my-3">
+                                            Native iOS development using Swift and Xcode
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Swift</span>
+                                            <span class="badge rounded-pill">SwiftUI</span>
+                                            <span class="badge rounded-pill">Core Data</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-android text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Android Native</h4>
+                                        <p class="text-color my-3">
+                                            Native Android development using Kotlin and Android Studio
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Kotlin</span>
+                                            <span class="badge rounded-pill">Jetpack</span>
+                                            <span class="badge rounded-pill">Room</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box purple text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-code text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Xamarin</h4>
+                                        <p class="text-color my-3">
+                                            Microsoft's cross-platform solution using C# and .NET
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">C#</span>
+                                            <span class="badge rounded-pill">Forms</span>
+                                            <span class="badge rounded-pill">MVVM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-globe text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">PWA</h4>
+                                        <p class="text-color my-3">
+                                            Progressive Web Apps with native-like mobile experiences
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Service Worker</span>
+                                            <span class="badge rounded-pill">Manifest</span>
+                                            <span class="badge rounded-pill">Offline</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="devops">
+                            <h5 class="secondary-color fs-3 pt-3">Cloud & DevOps</h5>
+                            <p class="text-color fs-5 py-3">Modern cloud infrastructure and deployment technologies</p>
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-aws text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Amazon AWS</h4>
+                                        <p class="text-color my-3">
+                                            Comprehensive cloud computing platform with extensive services
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill text-primary">EC2</span>
+                                            <span class="badge rounded-pill text-primary">Lambda</span>
+                                            <span class="badge rounded-pill text-primary">S3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-microsoft text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Microsoft Azure</h4>
+                                        <p class="text-color my-3">
+                                            Enterprise cloud platform with integrated development tools
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">App Service</span>
+                                            <span class="badge rounded-pill">Functions</span>
+                                            <span class="badge rounded-pill">DevOps</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-google text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Google Cloud</h4>
+                                        <p class="text-color my-3">
+                                            Google's cloud computing platform with AI and ML capabilities
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Compute Engine</span>
+                                            <span class="badge rounded-pill">Cloud Run</span>
+                                            <span class="badge rounded-pill">BigQuery</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-docker text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Docker</h4>
+                                        <p class="text-color my-3">
+                                            Containerization platform for consistent application deployment
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Containers</span>
+                                            <span class="badge rounded-pill">Images</span>
+                                            <span class="badge rounded-pill">Compose</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box purple text-start">
+                                        <div class="icon mb-3">
+                                            <span class="text-white fs-5">k8s</span>
+                                        </div>
+                                        <h4 class="secondary-color">Kubernetes</h4>
+                                        <p class="text-color my-3">
+                                            Container orchestration system for automating deployment and scaling
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Pods</span>
+                                            <span class="badge rounded-pill">Services</span>
+                                            <span class="badge rounded-pill">Helm</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box black text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-brands fa-jenkins text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">CI/CD Pipeline</h4>
+                                        <p class="text-color my-3">
+                                            Automated build, test, and deployment workflows
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Jenkins</span>
+                                            <span class="badge rounded-pill">GitHub Actions</span>
+                                            <span class="badge rounded-pill">GitLab Ci</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="database">
+                            <h5 class="secondary-color fs-3 pt-3">Database Technologies</h5>
+                            <p class="text-color fs-5 py-3">Robust data storage solutions for modern applications</p>
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-database text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">PostgreSQL</h4>
+                                        <p class="text-color my-3">
+                                            Advanced open-source relational database with JSON support
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill text-primary">ACID</span>
+                                            <span class="badge rounded-pill text-primary">JSON</span>
+                                            <span class="badge rounded-pill text-primary">Extensions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box green text-start">
+                                        <div class="icon mb-3">
+                                            <span class="text-white fs-6">mongo</span>
+                                        </div>
+                                        <h4 class="secondary-color">MongoDB</h4>
+                                        <p class="text-color my-3">
+                                            Flexible NoSQL document database for modern applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Documents</span>
+                                            <span class="badge rounded-pill">Aggregation</span>
+                                            <span class="badge rounded-pill">Sharding</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box cyan text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-fire text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Redis</h4>
+                                        <p class="text-color my-3">
+                                            In-memory data structure store for caching and real-time applications
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Cache</span>
+                                            <span class="badge rounded-pill">Pub/Sub</span>
+                                            <span class="badge rounded-pill">Streams</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box orange text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-database text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">MySQL</h4>
+                                        <p class="text-color my-3">
+                                            Popular open-source relational database management system
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">InnoDB</span>
+                                            <span class="badge rounded-pill">Replication</span>
+                                            <span class="badge rounded-pill">Clustering</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box purple text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-chart-line text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">Elasticsearch</h4>
+                                        <p class="text-color my-3">
+                                            Distributed search and analytics engine for complex queries
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Search</span>
+                                            <span class="badge rounded-pill">Analytics</span>
+                                            <span class="badge rounded-pill">Kibana</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="content-box blue text-start">
+                                        <div class="icon mb-3">
+                                            <i class="fa-solid fa-diagram-project text-white fs-4"></i>
+                                        </div>
+                                        <h4 class="secondary-color">GraphQL</h4>
+                                        <p class="text-color my-3">
+                                            Query language and runtime for APIs with flexible data fetching
+                                        </p>
+                                        <div class="badges d-flex gap-2">
+                                            <span class="badge rounded-pill">Schema</span>
+                                            <span class="badge rounded-pill">Resolvers</span>
+                                            <span class="badge rounded-pill">Resolvers</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End technology section -->
+
+        <!-- testimonials section -->
+        <section class="testimonials py-5" id="testimonials">
+            <div class="container">
+                <div class="title text-center mb-3">
+                    <div class="head-span rounded-pill px-2 py-2 m-auto">
+                        <i class="fa-solid fa-heart primary-color me-1"></i>
+                        <span class="primary-color">Client Testimonials</span>
+                    </div>
+                    <h1 class="my-3">
+                        <span class="secondary-color">What Our</span>
+                        <span class="color-gradient">Clients Say</span>
+                    </h1>
+                    <p class="text-color">
+                        Don't just take our word for it. Here's what our clients have to say about working with us.
+                    </p>
+                </div>
+                <div class="content">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-box bg-white m-auto">
+                                    <div
+                                        class="top d-flex flex-column flex-md-row justify-content-md-between align-items-start align-items-md-center gap-3">
+                                        <div class="left d-flex gap-3 align-items-center">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-quote-left primary-color fs-4"></i>
+                                            </div>
+                                            <div class="d-flex flex-column gap-1">
+                                                <div class="stars d-flex gap-1">
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                </div>
+                                                <span class="text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div class="verified-badge d-flex align-items-center gap-1">
+                                            <i class="fa-solid fa-circle-check primary-color"></i>
+                                            <span class="fw-semibold primary-color">Verified</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-color fs-5 py-4">" Clarity transformed our entire digital presence.
+                                        Their
+                                        team's expertise and
+                                        dedication resulted in a 300% increase in our online sales. Absolutely
+                                        phenomenal work!"</p>
+                                    <div class="end py-2 d-flex justify-content-center justify-content-md-between">
+                                        <div class="person d-flex gap-3 align-items-center">
+                                            <div class="img-box">
+                                                <img class="img-fluid rounded-circle" src="./imgs/avatar-1-CwUcGkzI.png"
+                                                    alt="testimonial-1">
+                                                <div class="img-icon">
+                                                    <i class="fa-solid fa-circle-check primary-color fs-4"></i>
+                                                </div>
+                                            </div>
+                                            <div class="person-info d-flex flex-column">
+                                                <div class="fw-semibold secondary-color fs-5">Ahmed Al-Farsi</div>
+                                                <div class="fs-6 text-color">CEO, RetailMax</div>
+                                                <div><i class="fa-brands fa-linkedin fs-6 primary-color"></i>
+                                                    <span class="text-muted small">Verified on LinkedIn </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="right d-none d-md-flex flex-column justify-content-center align-items-end">
+                                            <div class="color-gradient fs-3 fw-bolder">300%</div>
+                                            <div class="fs-6 text-color">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-box bg-white m-auto">
+                                    <div
+                                        class="top d-flex flex-column flex-md-row justify-content-md-between align-items-start align-items-md-center gap-3">
+                                        <div class="left d-flex gap-3 align-items-center">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-quote-left primary-color fs-4"></i>
+                                            </div>
+                                            <div class="d-flex flex-column gap-1">
+                                                <div class="stars d-flex gap-1">
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                </div>
+                                                <span class="text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div class="verified-badge d-flex align-items-center gap-1">
+                                            <i class="fa-solid fa-circle-check primary-color"></i>
+                                            <span class="fw-semibold primary-color">Verified</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-color fs-5 py-4">
+                                        "The telemedicine platform they built for us has revolutionized how we serve our
+                                        patients. The security, reliability, and user experience are all top-notch."</p>
+                                    <div class="end py-2 d-flex justify-content-center justify-content-md-between">
+                                        <div class="person d-flex gap-3 align-items-center">
+                                            <div class="img-box">
+                                                <img class="img-fluid rounded-circle" src="./imgs/avatar-2-DvihTPKl.png"
+                                                    alt="testimonial-2">
+                                                <div class="img-icon">
+                                                    <i class="fa-solid fa-circle-check primary-color fs-4"></i>
+                                                </div>
+                                            </div>
+                                            <div class="person-info d-flex flex-column">
+                                                <div class="fw-semibold secondary-color fs-5">Dr. Michael Chen</div>
+                                                <div class="fs-6 text-color">Director, MedCare</div>
+                                                <div><i class="fa-brands fa-linkedin fs-6 primary-color"></i>
+                                                    <span class="text-muted small">Verified on LinkedIn </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="right d-none d-md-flex flex-column justify-content-center align-items-end">
+                                            <div class="color-gradient fs-3 fw-bolder">100K+</div>
+                                            <div class="fs-6 text-color">Patients</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-box bg-white m-auto">
+                                    <div
+                                        class="top d-flex flex-column flex-md-row justify-content-md-between align-items-start align-items-md-center gap-3">
+                                        <div class="left d-flex gap-3 align-items-center">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-quote-left primary-color fs-4"></i>
+                                            </div>
+                                            <div class="d-flex flex-column gap-1">
+                                                <div class="stars d-flex gap-1">
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                </div>
+                                                <span class="text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div class="verified-badge d-flex align-items-center gap-1">
+                                            <i class="fa-solid fa-circle-check primary-color"></i>
+                                            <span class="fw-semibold primary-color">Verified</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-color fs-5 py-4">"Working with Clarity was a game-changer. Their
+                                        mobile banking app exceeded all our expectations and has processed over $1
+                                        billion in transactions."</p>
+                                    <div class="end py-2 d-flex justify-content-center justify-content-md-between">
+                                        <div class="person d-flex gap-3 align-items-center">
+                                            <div class="img-box">
+                                                <img class="img-fluid rounded-circle" src="./imgs/avatar-3-MKRsHcFc.png"
+                                                    alt="testimonial-3">
+                                                <div class="img-icon">
+                                                    <i class="fa-solid fa-circle-check primary-color fs-4"></i>
+                                                </div>
+                                            </div>
+                                            <div class="person-info d-flex flex-column">
+                                                <div class="fw-semibold secondary-color fs-5">Eslam Salah</div>
+                                                <div class="fs-6 text-color">CTO, FinanceFlow</div>
+                                                <div><i class="fa-brands fa-linkedin fs-6 primary-color"></i>
+                                                    <span class="text-muted small">Verified on LinkedIn </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="right d-none d-md-flex flex-column justify-content-center align-items-end">
+                                            <div class="color-gradient fs-3 fw-bolder">$1B+</div>
+                                            <div class="fs-6 text-color">Processed</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-box bg-white m-auto">
+                                    <div
+                                        class="top d-flex flex-column flex-md-row justify-content-md-between align-items-start align-items-md-center gap-3">
+                                        <div class="left d-flex gap-3 align-items-center">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-quote-left primary-color fs-4"></i>
+                                            </div>
+                                            <div class="d-flex flex-column gap-1">
+                                                <div class="stars d-flex gap-1">
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                </div>
+                                                <span class="text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div class="verified-badge d-flex align-items-center gap-1">
+                                            <i class="fa-solid fa-circle-check primary-color"></i>
+                                            <span class="fw-semibold primary-color">Verified</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-color fs-5 py-4">
+                                        "The AI-powered analytics dashboard they created has given us insights we never
+                                        had before. Our decision-making process has become so much more data-driven and
+                                        effective."</p>
+                                    <div class="end py-2 d-flex justify-content-center justify-content-md-between">
+                                        <div class="person d-flex gap-3 align-items-center">
+                                            <div class="img-box">
+                                                <img class="img-fluid rounded-circle" src="./imgs/avatar-3-MKRsHcFc.png"
+                                                    alt="testimonial-4">
+                                                <div class="img-icon">
+                                                    <i class="fa-solid fa-circle-check primary-color fs-4"></i>
+                                                </div>
+                                            </div>
+                                            <div class="person-info d-flex flex-column">
+                                                <div class="fw-semibold secondary-color fs-5">James Wilson</div>
+                                                <div class="fs-6 text-color">VP of Operations, TechCorp</div>
+                                                <div><i class="fa-brands fa-linkedin fs-6 primary-color"></i>
+                                                    <span class="text-muted small">Verified on LinkedIn </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="right d-none d-md-flex flex-column justify-content-center align-items-end">
+                                            <div class="color-gradient fs-3 fw-bolder">10X</div>
+                                            <div class="fs-6 text-color">insights</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-box bg-white m-auto">
+                                    <div
+                                        class="top d-flex flex-column flex-md-row justify-content-md-between align-items-start align-items-md-center gap-3">
+                                        <div class="left d-flex gap-3 align-items-center">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-quote-left primary-color fs-4"></i>
+                                            </div>
+                                            <div class="d-flex flex-column gap-1">
+                                                <div class="stars d-flex gap-1">
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                                </div>
+                                                <span class="text-secondary">5.0 Rating</span>
+                                            </div>
+                                        </div>
+                                        <div class="verified-badge d-flex align-items-center gap-1">
+                                            <i class="fa-solid fa-circle-check primary-color"></i>
+                                            <span class="fw-semibold primary-color">Verified</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-color fs-5 py-4">"Their cloud migration service was flawless. Zero
+                                        downtime, improved performance, and significant cost savings. The team's
+                                        expertise is unmatched."</p>
+                                    <div class="end py-2 d-flex justify-content-center justify-content-md-between">
+                                        <div class="person d-flex gap-3 align-items-center">
+                                            <div class="img-box">
+                                                <img class="img-fluid rounded-circle" src="./imgs/avatar-4-CDQD_dyw.png"
+                                                    alt="testimonial-5">
+                                                <div class="img-icon">
+                                                    <i class="fa-solid fa-circle-check primary-color fs-4"></i>
+                                                </div>
+                                            </div>
+                                            <div class="person-info d-flex flex-column">
+                                                <div class="fw-semibold secondary-color fs-5">Omar Wael</div>
+                                                <div class="fs-6 text-color">IT Director, GlobalTech</div>
+                                                <div><i class="fa-brands fa-linkedin fs-6 primary-color"></i>
+                                                    <span class="text-muted small">Verified on LinkedIn </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="right d-none d-md-flex flex-column justify-content-center align-items-end">
+                                            <div class="color-gradient fs-3 fw-bolder">0%</div>
+                                            <div class="fs-6 text-color">Growth</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-indicators pt-3">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End testimonials section -->
+
+
+        <!-- FAQ section -->
+        <section class="FAQ py-5" id="FAQ">
+            <div class="container">
+                <div class="fqa-box">
+                    <div class="title text-center mb-3">
+                        <div class="head-span rounded-pill px-2 py-2 m-auto">
+                            <i class="fa-solid fa-question-circle primary-color me-1"></i>
+                            <span class="primary-color">FAQ</span>
+                        </div>
+                        <h1 class="my-3">
+                            <span class="secondary-color">Frequently Asked</span>
+                            <span class="color-gradient">Questions</span>
+                        </h1>
+                        <p class="text-color">
+                            Find answers to common questions about our services, process, and how we can help transform
+                            your
+                            business.
+                        </p>
+                    </div>
+                    <div class="content m-auto mt-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne">
+                                        What services does Clarity offer?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        We offer a comprehensive range of digital services including web development,
+                                        mobile
+                                        applications, cloud solutions, AI & machine learning, digital marketing, and
+                                        UI/UX
+                                        design. Our team specializes in creating custom solutions tailored to your
+                                        specific
+                                        business needs, from initial concept through to deployment and ongoing support.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold p-4 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        How long does a typical project take?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        Project timelines vary based on complexity and scope. A simple website might
+                                        take
+                                        4-6 weeks, while a complex web application or mobile app could take 3-6 months.
+                                        We
+                                        provide detailed project timelines during our initial consultation and keep you
+                                        updated throughout the development process with regular milestones and
+                                        deliverables.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold p-4 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What is your development process?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        We follow an agile development methodology that includes:
+                                        <span class="d-block"><i
+                                                class="fa-solid fa-check primary-color fs-6 me-2"></i>Discovery &
+                                            Planning:
+                                            Understanding your requirements and goals</span>
+                                        <span class="d-block"><i
+                                                class="fa-solid fa-check primary-color fs-6 me-2"></i>Design: Creating
+                                            wireframes and visual designs</span>
+                                        <span class="d-block"><i
+                                                class="fa-solid fa-check primary-color fs-6 me-2"></i>Development:
+                                            Building
+                                            your solution with regular updates</span>
+                                        <span class="d-block"><i
+                                                class="fa-solid fa-check primary-color fs-6 me-2"></i>Testing: Rigorous
+                                            QA
+                                            and user testing</span>
+                                        <span class="d-block"><i
+                                                class="fa-solid fa-check primary-color fs-6 me-2"></i>Deployment: Launch
+                                            and
+                                            ongoing support</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold p-4 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+                                        aria-controls="collapsefour">
+                                        Do you provide ongoing support and maintenance?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapsefour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        Yes! We offer comprehensive support and maintenance packages to ensure your
+                                        solution
+                                        continues to perform optimally. This includes bug fixes, security updates,
+                                        performance optimization, feature enhancements, and technical support. We can
+                                        customize a maintenance plan that fits your specific needs and budget.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold p-4 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false"
+                                        aria-controls="collapsefive">
+                                        What technologies do you work with?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapsefive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        We work with cutting-edge technologies across the full stack. For frontend, we
+                                        use
+                                        React, Vue.js, Angular, and Next.js. Our backend expertise includes Node.js,
+                                        Python,
+                                        Golang, and Java. We're proficient in cloud platforms like AWS, Azure, and
+                                        Google
+                                        Cloud, and work with both SQL and NoSQL databases. We always choose the best
+                                        technology stack for your specific project requirements.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button secondary-color fw-bold p-4 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false"
+                                        aria-controls="collapsesix">
+                                        How do you ensure project security and data privacy?
+                                        <i class="fa-solid fa-chevron-down ms-auto transition-icon primary-color"></i>
+                                    </button>
+                                </h2>
+                                <div id="collapsesix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        Security is our top priority. We implement industry-standard security practices
+                                        including encryption, secure authentication, regular security audits, and
+                                        compliance
+                                        with data protection regulations (GDPR, HIPAA, etc.). All our developers sign
+                                        NDAs,
+                                        and we use secure development practices throughout the entire project lifecycle.
+                                        We
+                                        also provide security documentation and training for your team.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End FAQ section -->
+
+
+        <!-- contact section -->
+        <section class="contact py-5" id="contact">
+            <div class="container">
+                <div class="title text-center mb-3">
+                    <div class="head-span rounded-pill px-2 py-2 m-auto">
+                        <i class="fa-solid fa-rocket primary-color me-1"></i>
+                        <span class="primary-color">Let's Start Your Journey</span>
+                    </div>
+                    <h1 class="my-3 fw-bold">
+                        <span class="secondary-color d-block">Ready to</span>
+                        <span class="color-gradient">Transform?</span>
+                    </h1>
+                    <p class="text-color">
+                        Take the first step towards digital excellence. Our experts are ready to turn your vision into
+                        reality.
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="form-box my-4 row flex-column flex-md-row g-2">
+                        <div class="left col-12 col-md-8 p-5">
+                            <div>
+                                <h3 class="fw-bold secondary-color">Get Your Free Consultation</h3>
+                                <p class="fs-6 text-color">Fill out the form and we'll get back to you within 24 hours
+                                    with a personalized
+                                    proposal.</p>
+                            </div>
+                            <form class="row g-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label for="first-name" class="form-label">First Name *</label>
+                                        <input required type="text" class="form-control" id="first-name"
+                                            placeholder="john">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="last-name" class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" id="last-name" placeholder="Doe">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input required type="email" class="form-control" id="email"
+                                            placeholder="john@company.com">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="Company" class="form-label">Company</label>
+                                        <input required type="text" class="form-control" id="Company"
+                                            placeholder="Your Company Name">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputState" class="form-label">Primary Interest</label>
+                                    <select id="inputState" class="form-select">
+                                        <option>Choose your focus area</option>
+                                        <option>Web Development Design</option>
+                                        <option>Mobile App Development</option>
+                                        <option>Cloud Infrastructure</option>
+                                        <option>AI Machine Learning</option>
+                                        <option>Digital Marketing SEO</option>
+                                        <option>Complete Digital Transformation</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputState" class="form-label fw-semibold mb-3">Timeline</label>
+                                    <div class="select-wrapper position-relative">
+                                        <select id="inputState" class="form-select custom-select">
+                                            <option>When do you want to start?</option>
+                                            <option>Immediately</option>
+                                            <option>Within 1 month</option>
+                                            <option>Within 3 months</option>
+                                            <option>Within 6 months</option>
+                                            <option>Just exploring options</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-semibold mb-3">Project Budget Range</label>
+                                    <div class="row g-3">
+                                        <div class="col-12 col-md-4">
+                                            <input type="radio" class="d-none" name="budget" id="b1">
+                                            <label for="b1" class="budget-box text-center w-100">
+                                                <div class="fw-semibold">$25K - $50K</div>
+                                                <div class="small text-muted">Growth</div>
+                                            </label>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <input type="radio" class="d-none" name="budget" id="b2">
+                                            <label for="b2" class="budget-box text-center w-100">
+                                                <div class="fw-semibold">$50K - $100K</div>
+                                                <div class="small text-muted">Scale</div>
+                                            </label>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <input type="radio" class="d-none" name="budget" id="b3">
+                                            <label for="b3" class="budget-box text-center w-100">
+                                                <div class="fw-semibold">$100K+</div>
+                                                <div class="small text-muted">Enterprise</div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="project" class="form-label my-2">Tell us about your project</label>
+                                    <textarea rows="5" class="form-control my-2"
+                                        placeholder="Describe your project goals, challenges, and what success looks like for you..."
+                                        id="project"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            I agree to receive communications and accept the <a href="#"
+                                                class="primary-color">Privacy Policy</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn  w-100 text-white p-4 rounded-4 fw-bold">
+                                        Get My Free Consultation <i class="fa-solid fa-arrow-right ms-1"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="right col-12 col-md-4 p-5 m-0">
+                            <h4 class="text-white fw-bold  mb-4">Why Choose Clarity?</h4>
+                            <div class="d-flex flex-column gap-4">
+                                <div class="d-flex justify-content-start gap-3">
+                                    <div class="contact-icon flex-shrink-0 my-1">
+                                        <i class="fa-solid fa-clock text-white"></i>
+                                    </div>
+                                    <div class="item">
+                                        <h5 class="text-white m-1">24-Hour Response</h5>
+                                        <p>Quick turnaround on all inquiries with detailed project analysis</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start gap-3">
+                                    <div class="contact-icon flex-shrink-0 my-1">
+                                        <i class="fa-solid fa-shield-halved text-white"></i>
+                                    </div>
+                                    <div class="item">
+                                        <h5 class="text-white m-1">100% Satisfaction</h5>
+                                        <p>Money-back guarantee if you're not completely satisfied</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start gap-3">
+                                    <div class="contact-icon flex-shrink-0 my-1">
+                                        <i class="fa-solid fa-users text-white"></i>
+                                    </div>
+                                    <div class="item">
+                                        <h5 class="text-white m-1">Expert Team</h5>
+                                        <p>150+ certified professionals with 8+ years experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-top border-white border-opacity-25 pt-4">
+                                <h5 class="fw-semibold mb-4 text-white">Direct Contact</h5>
+                                <div class="d-flex flex-column gap-3">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="fa-solid fa-phone text-white"></i>
+                                        <span class="text-white opacity-75">+1 (555) 123-4567</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="fa-solid fa-envelope text-white"></i>
+                                        <span class="text-white opacity-75">hello@clarity.com</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <i class="fa-solid fa-location-dot text-white"></i>
+                                        <span class="text-white opacity-75">San Francisco, CA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End contact section -->
+    </main>
+    <!-- End main content -->
+
+    <!-- footer -->
+    <footer class="footer pt-5" id="footer">
+        <hr class="border-secondary mb-4">
+        <div class="container">
+            <div class="row flex-column flex-md-row justify-content-between g-4">
+                <div class="col-12 col-sm-5">
+                    <div class="navbar-brand d-flex flex-wrap  align-items-center gap-3">
+                        <div class="icon">
+                            <i class="fa-sharp fa-solid fa-cube" style="color: rgb(255, 255, 255);"></i>
+                        </div>
+                        <span class="text-black fw-bolder fs-5">Clarity</span>
+                    </div>
+                    <p class="py-2 text-secondary paragragraph">
+                        Transforming businesses through innovative digital solutions and cutting-edge technology.
+                    </p>
+                </div>
+                <div class="col-12 offset-md-2 col-sm-5">
+                    <div class="box d-flex gap-3 fs-4 justify-content-md-end">
+                        <div class="link-icon"><a href="https://linkedin.com/"><i
+                                    class="fa-brands fa-linkedin fs-6"></i></a>
+                        </div>
+                        <div class="link-icon"><a href="https://www.x.com/"><i
+                                    class="fa-brands fa-twitter fs-6"></i></a></div>
+                        <div class="link-icon"><a href="https://www.github.com/"><i
+                                    class="fa-brands fa-github fs-6"></i></a></div>
+                        <div class="link-icon"><a href="#"><i class="fa-brands fa-dribbble fs-6"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary mt-4">
+            <div class="end d-flex flex-column justify-content-between align-items-center gap-2 p-0 pt-3">
+                <p class="text-color mb-0">© 2025 Clarity. All rights reserved</p>
+                <div class="the-end">
+                    <p>Made with <i class="fa-solid fa-heart primary-color"></i> for amazing experiences</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
